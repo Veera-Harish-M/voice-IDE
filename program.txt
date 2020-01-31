@@ -1,0 +1,79 @@
+copying elements in an array
+public class CopyArray {public static void main(String[] args) {int [] arr1 = new int [] {1, 2, 3, 4, 5};int arr2[] = new int[arr1.length]; for (int i = 0; i < arr1.length; i++) { arr2[i] = arr1[i];} System.out.println("Elements of original array: ");for (int i = 0; i < arr1.length; i++) {System.out.print(arr1[i] + " ");}System.out.println();System.out.println("Elements of new array: ");for (int i = 0; i < arr2.length; i++) {System.out.print(arr2[i] + " ");]}}     
+frequency of each element in an array
+public class Frequency {  public static void main(String[] args) {   int [] arr = new int [] {1, 2, 8, 3, 2, 2, 2, 5, 1};   int [] fr = new int [arr.length];  int visited = -1;  for(int i = 0; i < arr.length; i++){  int count = 1;for(int j = i+1; j < arr.length; j++){if(arr[i] == arr[j]){  count++;fr[j] = visited;}} if(fr[i] != visited)fr[i] = count;} System.out.println("---------------------------------------");  System.out.println(" Element | Frequency");System.out.println("---------------------------------------"); for(int i = 0; i < fr.length; i++){if(fr[i] != visited)System.out.println("" + arr[i] + |" + fr[i]);}} System.out.println("------------------");}}    
+area of iscoscles triangle
+class AreaOfIsoscelesTriangle {public static void main(String args[]) {   Scanner s= new Scanner(System.in);System.out.println("Enter the length of same sided");double a= s.nextDouble();System.out.println("Enter the side2 of the Triangle");double b= s.nextDouble();double  area=(b/4)*Math.sqrt((4*a*a)-(b*b));System.out.println("Area of Isosceles Triangle is: " + area);}}
+area of parallelogram
+class AreaOfParallelogram {public static void main(String args[]) {   Scanner s= new Scanner(System.in);System.out.println("Enter the height:");double d1= s.nextDouble();System.out.println("Enter the breadth:");double d2= s.nextDouble()double  area=(d1*d2) ;System.out.println("Area of Parallelogram is: " + area);}}
+area of rhombus
+class AreaOfRhombus {public static void main(String args[]) {scanner s= new Scanner(System.in);System.out.println("Enter the diagonal 1:");double d1= s.nextDouble();System.out.println("Enter the diagonal 2:");double d2= s.nextDouble();double  area=(d1*d2)/2;System.out.println("Area of Rhombus is: " + area);}}
+area of equialteral triangle
+class AreaOfEquilateralTriangle {public static void main(String args[]) { Scanner s= new Scanner(System.in);System.out.println("Enter the side of the Triangle:");double a= s.nextDouble();double  area=(Math.sqrt(3)/4)*(a*a);System.out.println("Area of Triangle is: " + area);}}      
+perimeter of a circle
+class PerimeterOfCircle {public static void main(String args[]) {   Scanner s= new Scanner(System.in);System.out.println("Enter the radius:");double r= s.nextDouble();double  c=(22*2*r)/7 ;}}System.out.println("Perimeter of Circle is: " +c);}}      
+perimeter of equalteral triangle
+class PerimeterOfEquilateralTriangle{public static void main(String args[]){Scanner s= new Scanner(System.in);System.out.println("Enter the side of the Triangle:");double a= s.nextDouble();double  perimeter=3*a;System.out.println("perimeter of Triangle is: " + perimeter);}}      
+perimeter of parallelogram
+class PerimeterOfParallelogram{public static void main(String args[]) {   Scanner s= new Scanner(System.in);System.out.println("Enter the height of the Parallelogram:");double h= s.nextDouble();System.out.println("Enter the breadth of the Parallelogram:");double b= s.nextDouble();double  perimeter=2*(h+b);System.out.println("perimeter of Parallelogram is: " + perimeter);}}      
+perimeter of rectangle
+class PerimeterOfRectangle{public static void main(String args[]) {   Scanner s= new Scanner(System.in);System.out.println("Enter the length of the Rectangle:");double l= s.nextDouble();System.out.println("Enter the width of the Rectangle:");double b= s.nextDouble();double  perimeter=2*(l+b);System.out.println("perimeter of Rectangle is: " + perimeter);}      
+perimeter of a square
+class PerimeterOfSquare{public static void main(String args[]) {   Scanner s= new Scanner(System.in);System.out.println("Enter the side of the square:");double a= s.nextDouble();double  perimeter=4*a;System.out.println("perimeter of Square is: " + perimeter);}
+perimeter of rhombus
+class PerimeterOfRhombus{public static void main(String args[]) {   Scanner s= new Scanner(System.in);System.out.println("Enter the side of the Rhombus:");double a= s.nextDouble();double  perimeter=4*a;System.out.println("perimeter of Rhombus is: " + perimeter);}      
+volume of cone
+class volumeofcone{public static void main(String args[]) {   Scanner s= new Scanner(System.in);System.out.println("Enter the radius of cone:");double r=s.nextDouble();System.out.println("Enter the height of cone:");double h=s.nextDouble();double  volume=(22*r*r*h)/(3*7);System.out.println("Volume Of Cone is:" +volume);}}
+volume of prism
+class VolumeOfPrism {public static void main(String args[]) {   Scanner s= new Scanner(System.in);System.out.println("Enter the area of base:");double base=s.nextDouble();System.out.println("Enter the height:");double height=s.nextDouble();double  area=base*height ;System.out.println("Volume Of Prism is: " + area);}}
+volume of cylinder
+class VolumeOfCylinder {public static void main(String args[]){Scanner s= new Scanner(System.in);System.out.println("Enter the radius:");double r=s.nextDouble();System.out.println("Enter the height:");double h=s.nextDouble();double  volume=((22*r*r*h)/7);System.out.println("volume of Cylinder is: " +volume);}}
+volume of sphere
+class VolumeOfSphere {public static void main(String args[]){   Scanner s= new Scanner(System.in);System.out.println("Enter the radius of sphere:");double r=s.nextDouble();double  volume= (4*22*r*r*r)/(3*7);System.out.println("Volume is:" +volume);}       
+curved surface area of cube
+class CurvedSurfaceAreaOfCube {public static void main(String args[]) {   Scanner s= new Scanner(System.in);System.out.println("Enter the side of cube:");double side=s.nextDouble();double  v=4*side*side;System.out.println("CurvedSurfaceArea Of Cube is:" +v);}}
+calculate electricity bill
+class ComputeElectricityBill {public static void main(String args[]) {int units=280;double billpay=0;if(units<100){billpay=units*1.20}else if(units<300){billpay=100*1.20+(units-100)*2;}else if(units>300){billpay=100*1.20+200*2+(units-300)*3;}System.out.println("Bill to pay : " + billpay);}} 
+calculate discount of a product
+class Discount{public static void main(String args[]{double  dis,amount,markedprice,s;markedprice=1000;dis=25; System.out.println("markedprice= "+markedprice)System.out.println("discount rate="+dis);s=100-dis;amount= (s*markedprice)/100;System.out.println("amount after discount="+amount);}}
+calculate the distance between two points
+class DistanceBwPoint{public static void main(String arg[]){int x1,x2,y1,y2;double dis;Scanner sc=new Scanner(System.in);System.out.println("enter x1 point");x1=sc.nextInt();System.out.println("enter y1 point");y1=sc.nextInt();System.out.println("enter x2point");x2=sc.nextInt();System.out.println("enter y2 point");y2=sc.nextInt();dis=Math.sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1));System.out.println("distancebetween"+"("+x1+","+y1+"),"+"("+x2+","+y2+")===>"+dis);}
+calculate the commision percentage
+class CalculateCommission{public static void main(String arg[])	{double amount=1000,commissionPercentage=15;double commission=(commissionPercentage/100)*amount;System.out.println("Commission amount="+commission);}}
+calculate the batting average
+class BattingAverage{public static void main(String arg[]){int Matches=5,totalruns=200,innings=5,notout=1;double avg;avg=totalruns/(innings-notout);System.out.println("batting average="+avg);}}
+calculate the standard divison
+public class StandardDeviation {public static void main(String[] args) {double[] numArray = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };double SD = calculateSD(numArray);System.out.format("Standard Deviation = %.6f", SD);}public static double calculateSD(double numArray[]){double sum = 0.0, standardDeviation = 0.0;int length = numArray.length;for(double num : numArray){sum += num;}double mean = sum/length;for(double num: numArray) {standardDeviation += Math.pow(num - mean, 2);}return Math.sqrt(standardDeviation/length);}}
+to joint two list
+public class JoinLists {public static void main(String[] args) {List<String> list1 = new ArrayList<String>();list1.add("a");List<String> list2 = new ArrayList<String>();list2.add("b");List<String> joined = new ArrayList<String>();joined.addAll(list1);joined.addAll(list2);System.out.println("list1: " + list1);System.out.println("list2: " + list2);System.out.println("joined: " + joined);}}
+to get a current working directory
+public class CurrDirectory {public static void main(String[] args) {String path = System.getProperty("user.dir");System.out.println("Working Directory = " + path);}}
+compare two strings
+public class CompareStrings {public static void main(String[] args) {String style = new String("Bold");String style2 = new String("Bold");if(style.equals(style2))System.out.println("Equal");elseSystem.out.println("Not Equal");}}
+convert outputstreamto string
+public class OutputStreamString {public static void main(String[] args) throws IOException {ByteArrayOutputStream stream = new ByteArrayOutputStream();String line = "Hello there!";stream.write(line.getBytes());String finalString = new String(stream.toByteArray());System.out.println(finalString);}}
+convert milliseconds to seconds
+public class Milliseconds {public static void main(String[] args) {long milliseconds = 1000000;long minutes = (milliseconds / 1000) / 60;long seconds = (milliseconds / 1000) % 60;System.out.format("%d Milliseconds = %d minutes and %d seconds.", milliseconds, minutes, seconds);}}
+to get current date and time
+public class CurrentDateTime {public static void main(String[] args) {LocalDateTime current = LocalDateTime.now();DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS");String formatted = current.format(formatter);System.out.println("Current Date and Time is: " + formatted);}}
+     
+
+       
+       
+
+
+
+  
+         
+    
+                  
+            
+        
+        
+          
+             
+         
+                   
+       
+         
+        

@@ -1,0 +1,363 @@
+hi
+hello
+create a class 
+public class <class name>{ //to write code}
+class
+public class <class name>{//to write code}
+sum of n numbers
+sum=0;n=s.nextInt()//get number of input to be added ;for(iint i=0;i<n;i++){a=s.nextInt()//get input ot add;sum=sum+a;}System.out.println(sum);
+reversing a number
+num=s.nextInt//give an input to reverse;while(num != 0){int digit = num % 10;reversed = reversed * 10 + digit;num /= 10;}
+print statment 
+System.out.println(//write here);
+print
+System.out.println();
+create a class in private
+private class <class name>{//to write code}
+class in private
+private class <class name>{//to write code}
+create a class in protected
+protected class <class name>{//to write code}
+class in protected
+protected class <class name>{//to write code}
+create a main function 
+public static void main(String[] args){//to write code}
+main function
+public static void main(String[] args){//to write code}
+main 
+public static void main(String[] args){//to write code}
+create a main function with class
+public class <class namee>{public static void main(String[] args){//to write code}}
+main function with class
+public class <class namee>{public static void main(String[] args){//to write code}}
+create a interger variable
+int a;
+interger variable
+int a;
+create a float variable
+float a;
+float variable
+float a;
+create a double variable
+double d;
+double variable
+double d;
+create a character variable
+char a;
+character variable
+char a;
+i like to type cast integer to charcter
+i=(char)<your variable> //variable is to convert
+integer to charcter
+i=(char)<your variable>  //variable is to convert
+type cast integer to float
+i=(float)<your variable>  //variable is to convert
+integer to float
+type cast float to integer 
+i=(int)<your variable>  //variable is to convert
+create an array of type integer
+int array[] = new int[<enter your number>];
+array of type integer
+int array[] = new int[<enter your number>];
+create an array of type string 
+String array[]=new String[<enter your  number>];
+array of type string
+String array[]=new String[<enter your  number>];
+create an array of type float
+float array[] = new float[<enter your  number>];
+array of type float
+float array[] = new float[<enter your  number>];
+create a two dimensional array of type int
+int twoD[ ][ ] = new int[// user define number][// user define number];
+two dimensional array of type int
+int twoD[ ][ ] = new int[// user define number][// user define number];
+create 2 a array of type int
+int twoD[ ][ ] = new int[// user define number][// user define number];
+2 d array of type int
+int twoD[ ][ ] = new int[// user define number][// user define number];
+create a two dimensional array of type float
+float twoD[ ][ ] = new float[// user define number][// user define number];
+two dimensional array of type float
+float twoD[ ][ ] = new float[// user define number][// user define number];
+create 2 d array of type float
+float twoD[ ][ ] = new float[// user define number][// user define number];
+2 d array of type float
+float twoD[ ][ ] = new float[// user define number][// user define number];
+create a two dimensional array of type char
+char twoD[ ][ ] = new char[// user define number][// user define number];
+two dimensional array of type char
+char twoD[ ][ ] = new char[// user define number][// user define number];
+create 2 d array of type char
+char twoD[ ][ ] = new char[// user define number][// user define number];
+2 d array of type char
+char twoD[ ][ ] = new char[// user define number][// user define number];
+create an object to class
+<class name> obj1=new <class name>();
+create an object to class
+<class name> obj1=new <class name>();
+create an array list of type int
+ArrayList<datatype> a = new ArrayList<datatype>();
+array list of type int
+ArrayList<datatype> a = new ArrayList<datatype>();
+to find length of string 
+int length = <string variable>.length();
+length of string
+int length = <string variable>.length();
+ckeck for a thing if it contain
+<string >.contains("<thing to find>")
+replace by a word
+<string to change>.replace(oldC,newC)
+to replace all
+replaceAll(String regex, String replacement)
+uppercase to lowercase
+<string>.toLowerCase()
+lowercase to uppercase 
+<string>.toUpperCase()
+to check prime number or not
+checkPrime(enter ypor prime number);void checkPrime(int n){int i,m=0,flag=0;m=n/2;if(n==0||n==1){System.out.println(n+" is not prime number");}else{for(i=2;i<=m;i++){if(n%i==0){System.out.println(n+" is not prime number");flag=1;break; }   }if(flag==0)  { System.out.println(n+" is prime number"); }}}   
+prime number or not
+checkPrime(enter ypor prime number);void checkPrime(int n){int i,m=0,flag=0;m=n/2;if(n==0||n==1){System.out.println(n+" is not prime number");}else{for(i=2;i<=m;i++){if(n%i==0){System.out.println(n+" is not prime number");flag=1;break; }   }if(flag==0)  { System.out.println(n+" is prime number"); }}}   
+to check armstrong number
+int c=0,a,temp; int n=<enter your number>temp=n;while(n>0){{a=n%10;n=n/10;c=c+(a*a*a);}  if(temp==c){ System.out.println("armstrong number");  } else{System.out.println("Not armstrong number"); }}
+armstrong number
+int c=0,a,temp; int n=<enter your number>temp=n;while(n>0){{a=n%10;n=n/10;c=c+(a*a*a);}  if(temp==c){ System.out.println("armstrong number");  } else{System.out.println("Not armstrong number"); }}
+vowels and consonants in a string
+String str = "<your string>";int vcount = 0, ccount = 0;str = str.toLowerCase();for(int i = 0; i < str.length(); i++) { char ch = str.charAt(i); if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') { vcount++; } else if((ch >= 'a'&& ch <= 'z')) {ccount++;}}System.out.println("Number of Vowels: " + vcount);System.out.println("Number of Consonants: " + ccount);
+to count vowels and consonants in a string
+String str = "<your string>";int vcount = 0, ccount = 0;str = str.toLowerCase();for(int i = 0; i < str.length(); i++) { char ch = str.charAt(i); if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') { vcount++; } else if((ch >= 'a'&& ch <= 'z')) {ccount++;}}System.out.println("Number of Vowels: " + vcount);System.out.println("Number of Consonants: " + ccount);
+to sort an array in ascending order
+int count, temp;Scanner scan = new Scanner(System.in);System.out.print("Enter number of elements you want in the array: ");count = scan.nextInt();int num[] = new int[count];System.out.println("Enter array elements:");for (int i = 0; i < count; i++) {num[i] = scan.nextInt();}scan.close();for (int i = 0; i < count; i++) {for (int j = i + 1; j < count; j++) { if (num[i] > num[j]) {temp = num[i];num[i] = num[j]; num[j] = temp;}}}System.out.print("Array Elements in Ascending Order: ");for (int i = 0; i < count - 1; i++) {System.out.print(num[i] + ", ");}System.out.print(num[count - 1]);
+sort an array in ascending order
+int count, temp;Scanner scan = new Scanner(System.in);System.out.print("Enter number of elements you want in the array: ");count = scan.nextInt();int num[] = new int[count];System.out.println("Enter array elements:");for (int i = 0; i < count; i++) {num[i] = scan.nextInt();}scan.close();for (int i = 0; i < count; i++) {for (int j = i + 1; j < count; j++) { if (num[i] > num[j]) {temp = num[i];num[i] = num[j]; num[j] = temp;}}}System.out.print("Array Elements in Ascending Order: ");for (int i = 0; i < count - 1; i++) {System.out.print(num[i] + ", ");}System.out.print(num[count - 1]);
+check palindrome for number
+int num = <type you number>, reversedInteger = 0, remainder, originalInteger;originalInteger = num;while( num != 0 ){remainder = num % 10;reversedInteger = reversedInteger * 10 + remainder;num  /= 10;}if (originalInteger == reversedInteger){System.out.println(originalInteger + " is a palindrome.");}else{System.out.println(originalInteger + " is not a palindrome.");}
+palindrome
+int num = <type you number>, reversedInteger = 0, remainder, originalInteger;originalInteger = num;while( num != 0 ){remainder = num % 10;reversedInteger = reversedInteger * 10 + remainder;num  /= 10;}if (originalInteger == reversedInteger){System.out.println(originalInteger + " is a palindrome.");}else{System.out.println(originalInteger + " is not a palindrome.");}
+to check palindrome for number
+int num = <type you number>, reversedInteger = 0, remainder, originalInteger;originalInteger = num;while( num != 0 ){remainder = num % 10;reversedInteger = reversedInteger * 10 + remainder;num  /= 10;}if (originalInteger == reversedInteger){System.out.println(originalInteger + " is a palindrome.");}else{System.out.println(originalInteger + " is not a palindrome.");}
+to check palindrome for string
+String s=s.nextLine();String reverse = new StringBuffer(s).reverse().toString(); if (s.equals(reverse)) {System.out.println("Yes"); }else{System.out.println("No");} 
+binary serach
+class BinarySearchExample{public static void binarySearch(int arr[], int first, int last, int key){int mid = (first + last)/2;while( first <= last ){if ( arr[mid] < key ){first = mid + 1;}else if ( arr[mid] == key ){System.out.println("Element is found at index: " + mid);break;}else{last = mid - 1;}mid = (first + last)/2;  }if ( first > last ){System.out.println("Element is not found!");}}public static void main(String args[]){int arr[] = {10,20,30,40,50};int key = 30;int last=arr.length-1;binarySearch(arr,0,last,key);  }}  
+inheritance 
+class derived-class extends base-class{ //methods and fields}  
+create an class with inheritance
+class derived-class extends base-class{ //methods and fields}
+class with inheritance
+class derived-class extends base-class{ //methods and fields}
+create student grades program
+int marks[] = new int[6];int i;float total=0, avg;Scanner scanner = new Scanner(System.in);for(i=0; i<6; i++) {System.out.print("Enter Marks of Subject"+(i+1)+":");marks[i] = scanner.nextInt();total = total + marks[i];}avg = total/6;System.out.print("The student Grade is: ");if(avg>=80){System.out.print("A");}else if(avg>=60 && avg<80){System.out.print("B");}else if(avg>=40 && avg<60){System.out.print("C");}else{System.out.print("D");}
+student grades
+int marks[] = new int[6];int i;float total=0, avg;Scanner scanner = new Scanner(System.in);for(i=0; i<6; i++) {System.out.print("Enter Marks of Subject"+(i+1)+":");marks[i] = scanner.nextInt();total = total + marks[i];}avg = total/6;System.out.print("The student Grade is: ");if(avg>=80){System.out.print("A");}else if(avg>=60 && avg<80){System.out.print("B");}else if(avg>=40 && avg<60){System.out.print("C");}else{System.out.print("D");}
+create fibonacci series
+int count = 7, num1 = 0, num2 = 1;System.out.print("Fibonacci Series of "+count+" numbers:");for (int i = 1; i <= count; ++i){System.out.print(num1+" ");int sumOfPrevTwo = num1 + num2;num1 = num2;num2 = sumOfPrevTwo;}
+fibonacci series
+int count = 7, num1 = 0, num2 = 1;System.out.print("Fibonacci Series of "+count+" numbers:");for (int i = 1; i <= count; ++i){System.out.print(num1+" ");int sumOfPrevTwo = num1 + num2;num1 = num2;num2 = sumOfPrevTwo;}
+create a factorial of a number
+int number = 5;long fact = 1;for(int i = 1; i <= number; i++){fact = fact * i;}System.out.println("Factorial of "+number+" is: "+fact)
+factorial of a number
+int number = <your data>;long fact = 1;for(int i = 1; i <= number; i++){fact = fact * i;}System.out.println("Factorial of "+number+" is: "+fact)
+create long to string conversion
+long lvar = <your data>;String str = String.valueOf(lvar);
+long to string conversion
+long lvar = <your data>;String str = String.valueOf(lvar);
+long to string 
+long lvar = <your data>;String str = String.valueOf(lvar);
+create string to long conversion
+String str = "<your data>";long num = Long.parseLong(str);
+string to long conversion
+String str = "<your data>";long num = Long.parseLong(str);
+string to long 
+String str = "<your data>";long num = Long.parseLong(str);
+double to string
+double dnum = <your data>;String str = String.valueOf(dnum);     
+create convert double to string
+double dnum = <your data>;String str = String.valueOf(dnum); 
+string to double
+String str="<your data>";double dnum = Double.parseDouble(str);
+create convert string to double
+String str=<your data>;double dnum = Double.parseDouble(str);
+int to string conversion
+int ivar = <your data>;String str = String.valueOf(ivar); 
+create int to string conversion
+int ivar = <your data>;String str = String.valueOf(ivar);
+string to int
+String str = "<your data>";int inum = Integer.parseInt(str);
+create convert string to int
+String str = "<your data>";int inum = Integer.parseInt(str);
+find ascii value of a character
+char ch = '<your data>';int asciiCode = ch;int asciiValue = (int)ch;
+to create ascii to character
+char ch = '<your data>';int asciiCode = ch;int asciiValue = (int)ch;
+binary to decimal conversion
+public int BinaryToDecimal(int binaryNumber<your data>){int decimal = 0;int p = 0;while(true){if(binaryNumber == 0){break;} else {int temp = binaryNumber%10;decimal += temp*Math.pow(2, p);binaryNumber = binaryNumber/10;p++;}}}
+decimal to binary
+public void convertBinary(int num<your data>){int binary[] = new int[40];int index = 0;while(num > 0){binary[index++] = num%2;num = num/2;}for(int i = index-1;i >= 0;i--){System.out.print(binary[i]);}}
+convert int to long
+int num = <your data>;long lnum = num;  
+int to long
+int num = <your data>;long lnum = num;  
+long to int
+long lnum = <your data>;int inum = (int)lnum;
+convert long to int
+long lnum = <your data>;int inum = (int)lnum;
+convert char to string
+char ch = '<your data>';String str = String.valueOf(ch);
+char to string
+char ch = '<your data>';String str = String.valueOf(ch);
+convert char to int
+char ch = '<your data>';int num = ch;
+char to int
+char ch = '<your data>';int num = ch;
+convert int to char 
+int num = <your data>;char ch = (char)num;
+int to char
+int num = <your data>;char ch = (char)num;
+binary to octal 
+String number = "<your data>";int bnum = Integer.parseInt(number, 2);String ostr = Integer.toOctalString(bnum);
+create binary to octal 
+String number = "<your data>";int bnum = Integer.parseInt(number, 2);String ostr = Integer.toOctalString(bnum);
+convert decimal to hexadecimal
+int num =<your data>;int rem;String str2="";char hex[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};while(num>0){rem=num%16;str2=hex[rem]+str2;num=num/16;}System.out.println("Method 2: Decimal to hexadecimal: "+str2);
+decimal to hexadecimal
+int num =<your data>;int rem;String str2="";char hex[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};while(num>0){rem=num%16;str2=hex[rem]+str2;num=num/16;}System.out.println("Method 2: Decimal to hexadecimal: "+str2);
+hexadecimal to decimal 
+String hexnum = "<your data>";int num = Integer.parseInt(hexnum,16)
+create hexadecimal to decimal 
+String hexnum = "<your data>";int num = Integer.parseInt(hexnum,16)
+decimal to octal
+int num =<your data>;String octalString = Integer.toOctalString(num);System.out.println("Method 1: Decimal to octal: " + octalString);int rem;String str="";char dig[]={'0','1','2','3','4','5','6','7'};while(num>0){rem=num%8;str=dig[rem]+str;num=num/8;}System.out.println("Method 2: Decimal to octal: "+str);
+create decimal to octal
+int num =<your data>;String octalString = Integer.toOctalString(num);System.out.println("Method 1: Decimal to octal: " + octalString);int rem;String str="";char dig[]={'0','1','2','3','4','5','6','7'};while(num>0){rem=num%8;str=dig[rem]+str;num=num/8;}System.out.println("Method 2: Decimal to octal: "+str);
+octal to decimal
+String onum = "<your data>";int num = Integer.parseInt(onum, 8);
+create octal to decimal
+String onum = "<your data>";int num = Integer.parseInt(onum, 8);
+calculate area of circle
+double radius = <your data>;double area = Math.PI * (radius * radius);
+circumference of circle
+double radius = <your data>;double circumference= Math.PI * 2*radius;
+calculate area of triangle
+System.out.println("Enter the width of the Triangle:")double base = scanner.nextDouble(); System.out.println("Enter the height of the Triangle:");double height = scanner.nextDouble();double area = (base* height)/2;
+area of triangle
+System.out.println("Enter the width of the Triangle:")double base = scanner.nextDouble(); System.out.println("Enter the height of the Triangle:");double height = scanner.nextDouble();double area = (base* height)/2;
+calculate area of square
+double side = <your data>;double area = side*side;
+area of square
+double side = <your data>;double area = side*side;
+Calculate area of rectangle
+double length = <your data>;double width = <your data>;double area = length*width;
+area of rectangle
+double length = <your data>;double width = <your data>;double area = length*width;
+can you get my get ip address
+InetAddress myIP=InetAddress.getLocalHost();System.out.println("My IP Address is:");System.out.println(myIP.getHostAddress());
+get ip address
+InetAddress myIP=InetAddress.getLocalHost();System.out.println("My IP Address is:");System.out.println(myIP.getHostAddress());
+largest of three numbers
+num1=<your data>;num2 =<your data>;num3 =<your data>;temp = num1>num2 ? num1:num2;result = num3>temp ? num3:temp;
+smallest of three numbers
+num1=<your data>;num2 =<your data>;num3 =<your data>;temp = num1 < num2 ? num1:num2;result = num3 < temp ? num3:temp
+scanner 
+Scanner sc = new Scanner(System.in);
+import java all util package 
+import java.util.*;
+import io exception
+import java.io.IOException;
+import Buffer Reader
+import java.io.BufferedReader;
+import FileReader
+import java.io.FileReader;
+import maths
+import java.util.math;
+import string
+import java.lang.string;
+import math pi
+import java.lang.math.pi;
+import inputstream
+import java.io.inputstream;
+import file
+import java.io.file;
+import outputstream
+import java.io.outputstream;
+import eofexception
+import java.io.eofexception;
+import scanner
+import java.util.scanner;
+import math
+import java.util.math;
+import arraylist
+import java.util.arraylist;
+import arrays
+import java.util.arrays;
+import all package of applet
+import java.applet.*;
+import all package of awt
+import java.awt.*;
+import url
+import java.net.url;
+import inetaddress
+import java.net.inetaddress;
+import all package of net
+import java.net.*
+import urlencoder
+import java.net.urlencoder
+a minus b
+int c=<your number>-<your number>
+a divide b
+int c=<your number>/<your number>
+a divide b without decimal
+int c=<your number>//<your number>
+a plus b
+int c=<your number>+<your number>
+a multiply b
+int c=<your number>*<your number>
+a modulo b
+int c=<your number>+<your number>
+create an abstract class
+abstract class <class name>{abstract<datatype><name>;//write abstract functions } class <classname>  extends <classname>{//write codes}
+abstract class
+abstract class <class name>{abstract<datatype><name>;//write abstract functions } class <classname>  extends <classname>{//write codes}
+interface 
+interface <name>{//write code ,it should have abstrace only } class<classname> implements <name> {//write codes}
+exit
+//Thanks for Using Invoco
+if
+if(<<condition>>){//code}
+if else
+if(<<condition>>){//code}else{//elsepart}
+if elseif
+if(<<condition>>){//code}elseif(<<condition>>){//action}else{//elsepart}
+while
+while(<<condition){//actionblock//incrementation}
+dowhile
+do{//code//incrementation}while(<<condition>>);
+for
+for(intialization;<<condition>>;incrementation){//actionblock}
+switch
+switch(value){//case 1:actionblock1;//case 2:actionblock2;//case n:actionbloackn;}
+equal function
+<string>.equals(<string>)
+compare string
+<string>.compareTo(<string>)
+charat
+<string>.charAt(index)
+substring
+<string>.substring(startindex,endindex)
+endswith
+<string>.endsWith(<string>)
+create frame
+JFrame frame = new JFrame("FrameDemo");
+frame
+JFrame frame = new JFrame("FrameDemo");
+frame close
+frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+frame visible
+sum of two numbers
+int a=<val>,b=<val>,c;c=a+b;System.out.println(c);
+frame.setVisible(true);
+
+
+
+
+
+
